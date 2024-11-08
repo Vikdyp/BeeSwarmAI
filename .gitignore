@@ -1,0 +1,54 @@
+# Ignore les environnements virtuels
+env/
+venv/
+
+# Ignore les dossiers et fichiers de cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore les fichiers de configuration de l'éditeur
+.vscode/
+.idea/
+
+# Ignore les logs et autres fichiers générés
+logs/
+*.log
+*.out
+*.tmp
+
+# Ignore les checkpoints de TensorFlow ou PyTorch si utilisés
+checkpoints/
+tensorboard_logs/
+
+# Ignore les captures d'écran et autres images générées
+screenshots/*.png
+
+# Ignore les données de formation ou les fichiers temporaires
+data/
+*.csv
+*.json
+*.h5
+
+# Ignore les modèles entraînés
+models/
+*.h5
+*.ckpt
+*.pt
+*.pth
+
+# Ignore les fichiers de configuration personnels
+config_zones.json
+
+# Ignore les fichiers de requirements locaux générés automatiquement
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore les dossiers créés par Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore les fichiers système (macOS, Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
